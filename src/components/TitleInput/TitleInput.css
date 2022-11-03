@@ -1,0 +1,19 @@
+.titleArea{
+    box-sizing: border-box;
+    font-size: 28pt; color: white;
+    font-weight: 900; letter-spacing: .05em;
+
+    min-height: 64px; max-height: 64px;
+    resize: none;
+
+    background-color: #C83E4D;
+    width: 100%;
+    margin-bottom: 15px; padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+
+}.titleArea:focus {
+    background-color: #c23748;
+    outline: none;
+    border: none;
+}

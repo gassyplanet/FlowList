@@ -1,0 +1,32 @@
+::placeholder {
+    color: wheat;
+}
+
+.screenWrapper{
+    width: 800px;
+}
+.extraWrapper {
+    padding: 50px; margin: 0px;
+    border-radius: 10px 10px 0 0;
+    background: rgb(244,184,96);
+    background: linear-gradient(-33deg, rgba(244,184,96,1) 0%, rgba(200,62,77,1) 200%);
+}
+
+.footer {
+    width: 100%;
+    display: flex; justify-content: right;
+    
+}.footer p {
+    height: 20px; width: 100%;
+}.footer button{
+    color: white;
+    font-size: 14pt; font-weight: 400; letter-spacing: .2em;
+    background-color: #9e2b39;
+    height: 80px; border-radius: 0 0 10px 10px;
+    width: 100%;
+    outline: none; border: none;
+}.footer button:hover {
+    cursor: pointer;
+    background-color: rgb(23, 145, 167);
+}
+

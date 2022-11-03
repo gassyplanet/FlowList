@@ -1,0 +1,54 @@
+.taskInput {
+    display: grid; grid-template-columns: 1fr 10fr;
+    margin: 0 0 30px 0 ; padding: 0 0 0 0;
+}
+
+
+.taskInput input {
+    grid-column: 2;
+    box-sizing: border-box;
+    font-size: 18pt; color: white;
+    font-weight: 300; letter-spacing: .05em;
+    background-color: #C83E4D;
+
+    border-radius: 10px 10px 0 0;
+    border: none;
+
+    width: 100%; padding: 10px; margin: 0;
+}.taskInput input:focus {
+    background-color: #c23748;
+    outline: none;
+}
+
+
+.taskInput textarea {
+    grid-column: 2;
+    resize: vertical;
+    box-sizing: border-box;
+    font-size: 12pt; color: white;
+    font-weight: 300; letter-spacing: .05em;
+    background-color: #C83E4D;
+
+    width: 100%; min-height: 100px; padding: 10px; margin: 0;
+    border: none;
+}.taskInput textarea:focus {
+    background-color: #c23748;
+    outline: none;
+}
+
+
+.newTask{
+    grid-column: 2;
+    font-size: 12pt; color: white;
+    font-weight: 900;
+    padding: 5px;
+    border-radius: 0 0 10px 10px;
+    width: 100%; height: auto; 
+    background-color: #9e2b39;
+    border: none;
+    outline: none;
+}.newTask:hover {
+    cursor: pointer;
+    
+    background-color: rgb(33, 107, 136);
+}
